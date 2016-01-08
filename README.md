@@ -1,5 +1,7 @@
 # pester
 
+Read overview [here](http://sethammons.com/post/pester)
+
 `pester` wraps Go's standard lib http client to provide several options to increase resiliency in your request. If you experience poor network conditions or requests could experience varied delays, you can now pester the endpoint for data.
 - Send out multiple requests and get the first back (only used for GET calls)
 - Retry on errors
